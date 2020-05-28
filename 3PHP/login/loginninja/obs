@@ -1,0 +1,11 @@
+Login multinivel:
+- admin
+- customer
+
+
+Username: darwin@example.com
+Password: darwin12qw!@QW
+
+Validação não implementada, pois requer servidor de e-mail, item 11, 12 e 13
+
+Tive que desabilitar o .htaccess, pois com ele não funcionava

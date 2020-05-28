@@ -1,0 +1,6 @@
+Vagrant
+Virtualbox
+Git
+GitHub
+Packagist
+ShellScript

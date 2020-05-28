@@ -1,0 +1,7 @@
+# Impedir a listagem do diretório atual
+
+Options -Indexes
+
+# Permitir a listagem do diretório atual
+
+Options +Indexes

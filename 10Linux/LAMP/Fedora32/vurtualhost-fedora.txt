@@ -1,0 +1,47 @@
+Criarei um virtualhost em minha partição de backup, em
+/backup/www
+
+Faça suas adaptações.
+
+Adicionar usuário ribafs ao grupo apache (altere para o seu usuário)
+sudo usermod -aG apache ribafs
+
+sudo nano /etc/hosts
+
+127.0.0.1        localhost
+::1              webprojects.com
+127.0.0.1        backup
+
+sudo chmod -R 775 /backup/www
+sudo chown -R ribafs.apache /backup/www
+
+sudo nano /etc/httpd/conf.d/vhost.conf
+
+<VirtualHost *:80>
+    ServerName backup
+    DocumentRoot "/backup/www"
+    ErrorLog /var/log/httpd/error_log
+    CustomLog /var/log/httpd/access_log combined
+    <Directory "/backup/www">
+        AllowOverride All
+        Require local
+        Order deny,allow
+    </Directory>
+</VirtualHost>
+
+Testar os virtualhosts
+httpd -S
+
+sudo systemctl restart httpd.service
+
+Permitir listagem de diretório ao invés de mostrar a página index.html de teste
+
+sudo nano /etc/httpd/conf.d/welcome.conf
+
+Mudar tudo para as linhas abaixo:
+
+<LocationMatch "^/+$">
+    Options +Indexes
+    ErrorDocument 403 /error/noindex.html
+</LocationMatch>
+

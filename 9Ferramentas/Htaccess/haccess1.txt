@@ -1,0 +1,34 @@
+RewriteEngine On
+
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1
+
+# Tratar as variáveis após a barra/
+# http://ribafs.org/controller/action/param1/param2/param3
+
+-------------
+errorDocument 400 http://www.youwebsite.com/404.html
+errorDocument 401 http://www.youwebsite.com/error.html
+errorDocument 403 http://www.youwebsite.com/error.html
+errorDocument 500 http://www.youwebsite.com/error.html
+
+# Disable Directory Browsing
+Options All -Indexes
+
+# Enable Directory Browsing
+Options All +Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^youwebsite.com
+RewriteRule (.*) http://www.youwebsite.info/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^subdomain\.youwebsite\.com$
+RewriteCond %{REQUEST_URI} !^/subdomain_folder/
+RewriteRule (.*) /subdomain_folder/$1
+
+RewriteCond %{HTTP_HOST} ^oldwebsite.com
+RewriteRule (.*) http://www.newwebsite.com/$1 [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^www\.oldwebsite\.com
+RewriteRule (.*) http://www.newwebsite.com/$1 [R=301,L]

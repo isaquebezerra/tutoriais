@@ -1,0 +1,35 @@
+Criar url amigavel usando desse jeito
+ 
+
+index.php
+
+<?php
+if(isset($_GET['categoria'])){
+$primeiro = $_GET['categoria'];
+if(isset($_GET['slug'])){
+$segundo = $_GET['slug'];
+
+$busca = mysql_query("SELECT * FROM postagens WHERE categoria = '$primeiro' AND slug = '$segundo' LIMIT 1");
+if (mysql_num_rows($busca) == 0) {
+echo "Nenhum registro encontrado.";
+mysql_close();
+} else {
+while($ver = mysql_fetch_array($busca)) {
+?>
+<h1><?php echo $ver['titulo']; ?></h1>
+<h1><?php echo $ver['conteudo']; ?></h1>
+
+<?php }}}}  ?>
+
+ 
+
+.htaccess
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/(.*)/$ index.php?categoria=$1&slug=$2 [NC,L]
+
+ 
+
+Obrigado novamente ao lightfox que me ajudou a passar os dois parametros na url

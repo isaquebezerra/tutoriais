@@ -1,0 +1,135 @@
+Extensões para o VSCode
+
+Listar extensões
+code --list-extensions
+
+Remover todas as extensões
+rm -rf ~/.vscode/extensoes/*
+
+Desabilitar todas as extensões via terminal
+code --disable-extensions .
+
+Emmet
+A extensão Emmet já vem instalada e habilitada nativamente
+
+Emmet vem habilitada por default em html, haml, jade, slim, jsx, xml, xsl, css, scss, sass, less e stylus e php.
+
+Para ver seu efeito digite num arquivo html
+
+!
+
+E tecle enter
+Ela mostra toda uma estrutura básica de página em HTML5
+
+Alguns comandos, os digite e tecle enter num arquivo html
+
+nav>ul>li
+
+ul>li*5
+
+
+Detalhes
+https://docs.emmet.io/cheat-sheet/
+https://code.visualstudio.com/docs/editor/emmet
+https://medium.com/@nandosalles/meus-plugins-do-visual-studio-code-72e8253b54b3
+
+
+Extensões que podem ser instaladas
+
+PHP Debug - Necessário para o funcionamento com XDebug
+PHP Extension Pack
+PHP Intelephense
+PHP IntelliSense
+PHP DocBlocker - ajuda no momento de documentar métodos
+
+Uso ela em conjunto com a "Intelephense", a "Intellisense - Crane" e a "PHP Namespace Resolver". Aconselho também o uso da extensão "phpcs", um linter pra PHP onde você pode definir o padrão para PSR2. PHP Debug. Settings Sync
+"vscode-icons" e a "File Utils".
+
+CakeCORED - extensão para cake - DEBUG HELPER: Creates a status bar label that shows the current Debug value from your current open project. When clicked, it changes the Debug value from app.php or core.php automatically.
+
+Markdown all in one
+
+jslint - indentação do código JS
+
+Desabilitar
+"jslint.enable": false
+"jslint.version": "latest"
+
+Instalar também via terminal:
+sudo npm install -g jslint
+
+Vsc View In Browser
+Visualizar arquivo no navegador padrão
+
+Beautify - Beautify javascript, JSON, CSS, Sass, and HTML in Visual Studio Code.
+
+https://medium.com/@nandosalles/meus-plugins-do-visual-studio-code-72e8253b54b3
+
+HTML CSS Class Completion - IntelliSense for CSS class names in HTML Ajuda a escrever e visualizar cores em css
+
+PHP Debug — Instala um adaptador para que você tenha um debugador do PHP no seu VSCode.
+
+PHP IntelliSense — Implementa uma série de funcionalidades para se tratalhar com mais produtividade com PHP.
+
+PHP Intellisense Crane — Provê uma série de code-completation para programas escritos em PHP.
+
+Class autocomplete for HTML
+A extensão varre automaticamente o arquivo HTML ativo para links externos de folhas de estilo CSS. Quando uma folha de estilos é encontrada, os nomes das classes são extraídos e disponibilizados para uso com o recurso autocomplete do código do Visual Studio Code.
+
+Image preview (Kiss Tamás)
+Mostra ao lado dos números de linhas do código um Preview da imagem que esta naquela linha, plugin muito útil para identificar no código onde estão as imagens.
+
+Temas
+Dracula Official (Set collor theme)
+Material icon theme (Set file icon theme)
+
+Coffee Emmet Mithril - Use VS Code Command: Expand Emmet to Mithril
+
+Optionally, You can bind mithrilEmmet.expand to a shortcut via File -> Preferences -> Keyboard Shortcuts.
+
+Icon Fonts - Snippets ou autocomplete de trechos de código para os mais conhecidos icons fonts do mercado.
+
+Fonte
+Fira code
+https://github.com/tonsky/FiraCode
+File - preferences - settings - text editor - Font - Fira code
+
+Bootstrap v4 Snippets
+Snippets ou autocomplete de trechos de código para o Bootstrap.
+To start using the snippets simply type b- snippet_name.
+
+JQuery Code Snippets (Don Jayamanne)
+Snippets ou autocomplete de trechos de código para Jquery.
+Over 130 jQuery Code Snippets for JavaScript code.
+Just type the letters 'jq' to get a list of all available jQuery Code Snippets.
+
+Visual Studio Code HTML Snippets
+Snippets named as the tag without braces
+
+div --> <div></div>
+doc --> <!DOCTYPE html>
+a   --> <a href=""></a>
+
+Bootstrap v3 Snippets
+
+Alguns
+bs3-alert 	Alert Box (Default)
+bs3-alert:danger 	Danger Alert Box
+bs3-alert:info 	Info Alert Box
+bs3-alert:success 	Success Alert Box
+bs3-alert:warning 	Warning Alert Box
+
+phpfmt – PHP formatter
+
+Testing REGEX
+
+Because us coders love to type super-turbo-fingered-fast, we can’t always guarantee that our code layout is correctly tabbed and indented. With the above extension, you don’t have to worry, with a quick tap of CTRL + ALT + F, the extension will magically format the PHP into a pretty formatted file. You can also configure the extension to run its formatting every time you save the file too.
+
+A quick note with this extension though, is that you must have the path to the PHP engine specified to work properly. Whether that be on a server on your local machine, it must be specified in the VSCode extension settings.
+
+PHP Getter & Setter
+https://marketplace.visualstudio.com/items?itemName=phproberto.vscode-php-getters-setters
+
+Another convenient extension is the Getter & Setter package, I’ll give you half a millisecond to work out what it does. Yep, you guessed it, this extension quickly adds ‘get and set’ functions to your code. It’s as simple as right-clicking on the variable you want getters and setters for and executing the extensions helper. This extension will turbo-charge your object-oriented PHP development.
+
+

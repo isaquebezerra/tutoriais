@@ -1,0 +1,7 @@
+Amigos, como faço para restringir acesso a minha aplicação, gostaria que apenas fosse acessado o index.php, da pagina inicial e negado os outro acesso as pastas e arquivos e fossem redirecionados para o index.php ex: meusite/teste.php fosse redirecionado para meusite/index.php ou meuseite/css/ fosse para o meusite/index.php
+
+um .htaccess na raiz do projeto, contento essas info, resolve
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]

@@ -1,0 +1,18 @@
+Para debugar um código em PHP
+
+- Instale o xDebug na máquina
+- Instale o PHP Debug no VSCode
+Adicionei ao final do php.ini
+[XDebug]
+xdebug.remote_enable = 1
+xdebug.remote_autostart = 1
+E reiniciei o apache
+
+- Abra o arquivo em PHP no VSCode
+- Clique à esquerda do número de linha onde deseja adicionar uma parada
+- Tecle F5 para ativar o Debug
+- Agora abra o Navegador com o arquivo aberto no VSCode
+Veja que o navegador manda para o VSCode e a bolinha vermelha da parada torna-se uma seta amarela com a bolinha vermelha no sentro
+- Se desativamos o break point o navegador executa o arquivo normalmente
+
+
