@@ -1,0 +1,18 @@
+
+Remove directory from git and local
+
+You could checkout 'master' with both directories;
+
+git rm -r one-of-the-directories // This deletes from filesystem
+git commit . -m "Remove duplicated directory"
+git push origin <your-git-branch> (typically 'master', but not always)
+
+Remove directory from git remoto
+
+As mentioned in the comments, what you usually want to do is remove this directory from git but not delete it entirely from the filesystem (local)
+
+
+git rm -r --cached 6PHPOO/MVC/mini-mvc7
+git commit -ma "Removção do diretorio mini-mvc7"
+git push origin master
+
