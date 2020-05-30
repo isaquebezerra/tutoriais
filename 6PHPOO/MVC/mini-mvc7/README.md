@@ -1,5 +1,7 @@
 # Mini MVC
 
+# NÃO ESTÁ FUNCIONANDO
+
 Este aplicativo é oriundo basicamente de 3 outros:
 - Playlist Criação de um Micro Framework do Zero - Curso com 64 aulas
 https://www.youtube.com/playlist?list=PLSYIyzca1f9wGynWlC-SH2lVBkE8S81A0
