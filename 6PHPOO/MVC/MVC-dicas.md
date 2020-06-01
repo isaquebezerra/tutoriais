@@ -1,5 +1,5 @@
-# Aplicativos em PHP usando MVC
-Bons padrões e recomendações para sua criação
+# Padrões para Aplicativos em PHP usando MVC
+E recomendações para sua criação
 
 ## Projetos baixados da internet
 Da internet em geral e do GitHub em particupar. A grande maioria dos projetos que baixo para testar não funcionam, como foi o caso dos 44 MVC que divulguei aqui no grupo dos quais baixei 42. Testei todos.
