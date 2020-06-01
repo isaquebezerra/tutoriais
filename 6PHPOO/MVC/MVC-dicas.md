@@ -11,7 +11,7 @@ Ainda outros problemas.
 ## Publicação de projetos
 As sugestões abaixo pretendem colaborar para evitar estes problemas, pois se publicamos um projeto é porque desejamos que alguém o experimente, nos dê start, nos siga, dê fork, etc.
 
-## Este post não é leis
+## Este post não é lei
 Mas apenas de trocar ideias. Caso não concorde pode ajudar dizendo como você usa. Apesar de poder ser polêmico, acredito que poderá ser útil para a comunidade.
 
 Alguns são consenso na comunidade e outros são apenas a minha preferência.
