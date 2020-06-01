@@ -2,7 +2,7 @@
 
 ## Alerta de Bug
 
-Se você estiver usando a versão 7.4 do PHP aparecerão mensagens de erro no registro. Esbora não interfiram no resultado é algo chato.
+Se você estiver usando a versão 7.4 do PHP aparecerão mensagens de erro no registro. Esbora não interfiram no resultado é algo chato. No PHP 7.3 e anteriores não acontece isso.
 
 ## Em produção
 Proteja o registro, pois ficará aberto.
