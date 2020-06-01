@@ -2,7 +2,7 @@
 E recomendações para sua criação
 
 ## Projetos baixados da internet
-Da internet em geral e do GitHub em particupar. A grande maioria dos projetos que baixo para testar não funcionam, como foi o caso dos 44 MVC que divulguei aqui no grupo dos quais baixei 42. Testei todos.
+Da internet em geral e do GitHub em particupar. A grande maioria dos projetos que baixo para testar não funcionam, como foi o caso dos 44 MVC que divulguei no grupo PHP BRasil, dos quais baixei 42 e testei todos.
 
 Boa parte contém erros, outra parte praticamente nem tem um README ou é insuficiente para entender.
 Outros não acompanham um script .sql de testes.
