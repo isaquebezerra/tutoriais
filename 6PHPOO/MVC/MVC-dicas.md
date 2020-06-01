@@ -39,7 +39,8 @@ Evitar comunicação direta entre view e model. Sempre intermediar essa comunica
 Usar e abusar de expressões condicionais. Exemplo abaixo (genérica)
 ```
 
-## Minha estrutura preferida, dividir arquivos entre app (aplicativo, negócio) e core (arquivos fixos)
+## Minha estrutura preferida, 
+Dividir arquivos entre app (aplicativo, negócio) e core (arquivos fixos)
 ```php
 Raiz limpo, com apenas .htaccess, README.md e composer.json
 public
