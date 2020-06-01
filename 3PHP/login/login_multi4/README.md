@@ -1,5 +1,12 @@
 # Login Multi
 
+## Alerta de Bug
+
+Se você estiver usando a versão 7.4 do PHP aparecerão mensagens de erro no registro. Esbora não interfiram no resultado é algo chato.
+
+## Em produção
+Proteja o registro, pois ficará aberto.
+
 Com uma área administrativa para gerenciamento dos usuários e roles.
 
 Para isso tenho um CRUD com acesso restrito aos usuários com role super.
