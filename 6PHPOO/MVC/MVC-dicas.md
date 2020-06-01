@@ -60,7 +60,9 @@ core (arquivos do core, não alterados pelo programador)
 
 ## Alguns Códigos
 
-### Dica legal, que facilita a compreensão da mensagem de erro do aplicativo e mostra profissionalismo
+### Dica legal
+Que facilita a compreensão da mensagem de erro do aplicativo e mostra profissionalismo da sua parte.
+São raros os aplicativos que usam algo parecido.
 
 No arquivo que inclui o vendor/autoload.php:
 ```php
