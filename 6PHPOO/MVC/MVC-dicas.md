@@ -58,6 +58,7 @@ core (arquivos do core, não alterados pelo programador)
   Model.php
   Router.php
 ```
+Meu exemplo de estrutura está nos aplicativos mini-mvc deste diretório.
 
 ## Alguns Códigos
 
