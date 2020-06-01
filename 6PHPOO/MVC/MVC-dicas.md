@@ -37,6 +37,7 @@ Procurar usar as melhores práticas e as recomendações de segurança (genéric
 Nos diretórios app/ (no caso da estrutura que sugeri) inserir arquivos README.md com instruções de como o usuário proceder. Exemplo: Criar um controller, um model e uma pasta view para cada tabela extra adicionada. E sempre que achar por bem crie um README.md com orientações
 Evitar comunicação direta entre view e model. Sempre intermediar essa comunicação com o controller
 Usar e abusar de expressões condicionais. Exemplo abaixo (genérica)
+Crie o aplicativo que se destina ao público de forma que funcione em uma pasta do docRoot, pois se exigir um virtualhost dificulta o teste será mais trabalhoso.
 ```
 
 ## Minha estrutura preferida, 
