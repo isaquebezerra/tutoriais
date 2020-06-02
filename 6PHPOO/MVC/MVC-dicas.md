@@ -27,6 +27,7 @@ Nomes de classes: CamelCase e Nomes de métodos e de propriedades: camelCase
 Gosto destes nomes: ClientesController nos nomes de classes e dos arquivos
 Uso do composer com PSR-4 (facilita a criação do aplicativo) e informações sobre o aplicativo e sobre o autor
 Acompanhar um detalhado README.md
+Não publique seu projeto antes que esteja pronto. Isso pode queimar seu filme. Além de estar pronto capriche no mesmo, faça o seu melhor.
 Acompanhar um script sql no raiz para teste do aplicativo com facilidade
 Usar código que avisa que composer ainda não foi executado (abaixo) evitando a mensagem de erro
 Fornecener login e senha logo no início do README.md, caso precise de login e senha para testar aplicativo
