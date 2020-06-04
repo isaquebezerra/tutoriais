@@ -1,10 +1,14 @@
 # Editor de Código VSCode
 
+O VSCode ou Visual Studio Code é um editor de código free que tem suporte para uma grande quantidade de linguagens de programação. Muitos bons recursos e expansível com suas extensões.
+https://code.visualstudio.com/
+
 ## Configurações nativas
 
 Logo após instalar e ao abrir pela primeira vez clique à direita nos links
 
 Tools and languages
+
 JavaScript, PHP
 
 Para ativar os recursos nativos para estas linguagens.
@@ -130,6 +134,8 @@ Ctrl+barra
 
 
 ## Algumas Extensões
+Seja prudente com a instalação de extensões, pois são muitas. Caso instale e não vá usar desinstale.
+Caso contrário perderá uma boa característica do VSCode que é sua performance.
 
 ### Shortcut Menu Bar
 Mostrar vários ícones úteis no menu superior direito:
@@ -147,6 +153,9 @@ F1 - Format Document
 
 ### Tema
 Atom one dark Theme
+
+## Outras extensões
+https://marketplace.visualstudio.com/VSCode
 
 ## Teclas de Atalho
 ```html
