@@ -50,6 +50,8 @@ Ele expandirá em:
         <li></li>
     </ul>
 ```
+Descubra outras abreviações que ele expande.
+
 Mais detalhes em:
 https://code.visualstudio.com/docs/editor/emmet
 https://docs.emmet.io/abbreviations/
