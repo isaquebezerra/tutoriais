@@ -36,7 +36,9 @@ Criar classes primárias em core/ e extender nas classes em app/
 Ao programar ter sempre em mente de facilitar a vida do usuário (genérica)
 Use CSS, o BootStrap ou outro framework CSS para deixar seu aplicativo mais elegante
 Procurar usar as melhores práticas e as recomendações de segurança (genérica)
-Nos diretórios app/ (no caso da estrutura que sugeri) inserir arquivos README.md com instruções de como o usuário proceder. Exemplo: Criar um controller, um model e uma pasta view para cada tabela extra adicionada. E sempre que achar por bem crie um README.md com orientações
+Nos diretórios app/ (no caso da estrutura que sugeri) inserir arquivos README.md com instruções de como o usuário proceder. 
+Idealmente alguém deve ser capaz de testar sem mesmo ler o README.md.
+Exemplo: Criar um controller, um model e uma pasta view para cada tabela extra adicionada. E sempre que achar por bem crie um README.md com orientações
 Evitar comunicação direta entre view e model. Sempre intermediar essa comunicação com o controller
 Usar e abusar de expressões condicionais. Exemplo abaixo (genérica)
 Crie o aplicativo que se destina ao público de forma que funcione em uma pasta do docRoot, pois se exigir um virtualhost dificulta o teste será mais trabalhoso.
