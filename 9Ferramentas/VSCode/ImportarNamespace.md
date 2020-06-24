@@ -52,3 +52,9 @@ class VendedoresController
     }
 }    
 ```
+
+## Alternativa
+Instalar a extensão phpIntellisense
+
+Então efetuar um duplo clique sobre o nome da classe e depois CTRL+BarraEspaço, que fará algo parecido, inserindo o use no topo do arquivo.
+
