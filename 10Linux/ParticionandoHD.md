@@ -6,7 +6,7 @@ Não existe uma lei para se dividir um hd em partições.
 
 Se deixarmos a distribuição se instalar e ela mesma criar as partições devemos aprender algo, mas ainda assim me parece que o melhor para cada um de nós somente nós mesmos acabamos descobrindo com o tempo, a experiência, as cabeçadas e as informações.
 
-## Meu esquema de particionar meu hd, nesta ordem:
+## Meu esquema de particionamento dos meus hds, nesta ordem:
 
 ```bash
 sda1 - efi - 1 GB
