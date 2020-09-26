@@ -52,7 +52,7 @@ Clicar em Show in your Filemanager
 - Então clique na caixa de texto à esquerda mais ou menos ao meio, onde aparece "Create nome do arquivo". Nesta caixa digite uma mensagem para commit
 - Então clique abaixo em Commit to master
 
-## Publicar este repositório que está somente lcal no GitHub
+## Publicar este repositório no GitHub
 
 - Após a conclusão do commit clique no botão Publish repository
 - Desmasque Keep this code private, caso deseje um repositório public
