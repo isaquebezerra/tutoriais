@@ -37,7 +37,7 @@ Sempre que aparece uma nova versão do Mint eu gosto de formatar e instalar do z
 
 Então instalo o novo por cima da partição existente em sda3.
 
-Apenas monto a sda4 em /backup, sem formatar, pois é nela que guardo meus arquivos e sempre os mantenho intactos. Precisamos sempre ter cuidado na fase de formatação, pois corremos sempre o risico de perder tudo. Então é uma boa ideia ter o backup do /backup em outra máquina ou mesmo em um HD externo. Eu mantenho geralmente uma cópia no computador do trabalho.
+Apenas monto a sda4 em /backup, sem formatar, pois é nela que guardo meus arquivos e sempre os mantenho intactos. Precisamos sempre ter cuidado nesta fase de particionamento, pois corremos sempre o risico de perder tudo. Então é uma boa ideia ter o backup do /backup em outra máquina ou mesmo em um HD externo. Eu mantenho geralmente uma cópia no computador do trabalho.
 
 Atualmente estou aprendendo a guardar meus arquivos de backup num repositório do GitHub (private). Oferece 2 GB. Uso o GitHub Desktop.
 
