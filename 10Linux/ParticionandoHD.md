@@ -17,7 +17,7 @@ sda4 - /backup - restante do disco
 
 ## Swap
 
-O valor da swap no linux geralmente é superdimensionado, pois eu particularmente nunca vi o Linux o usar. Ops, nunca havia visto. O nosso querido Mint é bem guloso, pois estou com 8 GB e ele já tá usando swap
+O valor da swap no linux geralmente é superdimensionado, pois eu particularmente nunca vi o Linux o usar. Ops, nunca havia visto. O nosso querido Mint é bem guloso, pois estou com 8 GB e ele já tá usando swap (ao meu ver ele gasta tudo isso fazendo um ótimo trabalho):
 
 ```bash
 free -m
