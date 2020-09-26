@@ -28,7 +28,7 @@ Swap:          3883         236        3647
 
 Usando 236 MB.
 
-Bem, mas veja que minha swap é de 4 GB. Acho bom esse cuidado com a segurança. É muito melhor que a máquina travar por não ter RAM e nem encontrar swap para ser usado em seu lugar. Afinal de contas usar 8 GB do disco para swap não irá fazer falta para praticamene ninguém.
+Bem, mas veja que minha swap é de 4 GB. Acho bom esse cuidado com a segurança. É muito melhor que a máquina travar por não ter RAM e nem encontrar swap para ser usado em seu lugar. Afinal de contas usar 8 GB do disco para swap não irá fazer falta para praticamente ninguém.
 
 
 ## Observação
