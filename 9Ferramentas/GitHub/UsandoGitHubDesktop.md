@@ -1,4 +1,4 @@
-# Uso básico do GitHub Desktop no Linux Mint 20
+# Uso Básico do GitHub Desktop no Linux Mint 20
 
 https://github.com/shiftkey/desktop
 
