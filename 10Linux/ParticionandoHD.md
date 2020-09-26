@@ -14,6 +14,11 @@ sda2 - swap - 8 GB
 sda3 - / - 50 a 100 GB
 sda4 - /backup - restante do disco
 ```
+## Dual boot
+Veja que eu não considerei uma partição NTFS para windows. Mas em muitos casos é importante se tere windows numa partição. Então o tamanho da partição irá depender da importância do sistema. Lembrando que para começar o Windows 10 come 40GB, enquanto que o Mint 20 aqui gastou 6GB.
+
+## VM com VirtualBox
+Também temoms a opção de instalar o windows numa máquina virtual (meu preferido é o VirtualBox). Esta opção pode ser a mais indicada em alguns casos.
 
 ## Swap
 
