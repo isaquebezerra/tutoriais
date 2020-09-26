@@ -1,4 +1,4 @@
-# Particionamdo meu HD com Mint 20
+# Particionando meu HD com Mint 20
 
 ## Evitando polêmica
 
