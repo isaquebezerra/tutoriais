@@ -4,6 +4,11 @@ https://github.com/shiftkey/desktop
 
 No site acima existem opções para outras distribuições Linux
 
+## Facilitando o uso do Git
+
+Usar o git pela linha de comando é algo trabalhoso, especialmente para alguns programadores.
+O GitHub Desktop torna o uso do Git muito simples e consequentemente mais produtivo.
+
 ## Boa Integração
 
 Ele se integra muito bem com nossos repositórios do GitHub e com nosso desktop através do gerenciador de arquivos, do terminal e de um editor de código, além de outros bons recursos.
