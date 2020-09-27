@@ -24,3 +24,6 @@ git config --global user.email "ribafs@gmail.com"
 
 ## Sugestões e dicas
 Caso tenha sugestões favor deixar num Issue.
+
+## Boa referência
+https://dev.to/jkvyff/reset-or-sync-local-branch-to-a-remote-repository-41c4
