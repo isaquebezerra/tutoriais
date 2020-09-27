@@ -98,3 +98,9 @@ Após fazer alerações no repositório no GitHub pelo site é bom sincronizar c
 - Manter sincronizados as pastas mais importantes e que trabalhamos nelas diariamente, pois caso as percamos nos farão mais falta.
 - Os arquivos em que mexemos pouco podem ficar de fora e serem jogados num repositório somente os selecionados e somente quando considerarmos que devemos fazer.
 - Sempre que alterar um repositório local ou remoto sincronizar no GitHub Desktop.
+
+## Conflitos
+
+Usei bem até há pouco, quando apareceu um conflito que não consegui resolver. Então fui pesquisar uma solução para sincronizar repositórios local e remoto e até agora tá funcionando assim:
+
+https://github.com/ribafs/tutoriais/blob/master/9Ferramentas/Git/SincronizandoRepositorios.md
