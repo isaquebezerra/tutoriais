@@ -99,8 +99,21 @@ Após fazer alerações no repositório no GitHub pelo site é bom sincronizar c
 - Os arquivos em que mexemos pouco podem ficar de fora e serem jogados num repositório somente os selecionados e somente quando considerarmos que devemos fazer.
 - Sempre que alterar um repositório local ou remoto sincronizar no GitHub Desktop.
 
-## Conflitos
+## Resolvendo Conflitos
 
-Usei bem até há pouco, quando apareceu um conflito que não consegui resolver. Então fui pesquisar uma solução para sincronizar repositórios local e remoto e até agora tá funcionando assim:
+Me apareceu um conflito que o GitHub Desktop não conseguia resolver.
+Então fechei o GitHub Desktop
+Fui ao gerenciador de arquivos e movi todos os arquivos e pastas que haviam no repositório para uma nova pasta
+Ao abrir novamente o GitHub Desktop ele não encontrou o repositório e o removi.
+Removi do GitHub o repositório antigo e recriei
+Então teclei Ctrl+N para criar um novo repositório
+Cliquei em Publish repository
+Movi todos os arquivos do antigo repositório, exceto a pasta .git para a pasta do novo repositório
+Voltei ao GH Desktop e fiz commit
+Depois Push origin
+
+Algo um pouco trabalhoso mas simples.
+
+Cheguei a procurar os passos para sincronizar via terminal e até agora tá funcionando assim:
 
 https://github.com/ribafs/tutoriais/blob/master/9Ferramentas/Git/SincronizandoRepositorios.md
