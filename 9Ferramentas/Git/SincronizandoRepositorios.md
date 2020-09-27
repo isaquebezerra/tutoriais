@@ -4,9 +4,9 @@ Em seu desktop mantenha um repositório sincronizado com o repositório do GitHu
 
 ```bash
 cd crud-generator
+git clone git@github.com:ribafs/crud-generator.git .
 git config --global user.name "Ribamar FS"
 git config --global user.email "ribafs@gmail.com"
-git clone git@github.com:ribafs/crud-generator.git .
 
 # Efetuar as modificações desejadas e executar os comandos abaixo
 
