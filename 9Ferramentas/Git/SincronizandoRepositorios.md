@@ -31,7 +31,7 @@ git push    # Aqui avisa que já está atualizado
 ```
 Removeu também do remoto
 
-## Sincronização básica
+## Resumindo a Sincronização
 - Somente na primeira vez fazemos um clone do repositório remoto para uma pasta local
 - Entramos na pasta e daqui pra frente para sincronizar usamos basicamente os comandos:
   - Após as alterações feitas, que podem ser locais ou remotas
