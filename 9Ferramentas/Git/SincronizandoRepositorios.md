@@ -11,7 +11,7 @@ git commit -m "Teste de sincrinização"
 git pull    # Aqui avisa que já está atualizado
 git push
 ```
-Isso levou o local.txt para o remoto
+Isso enviou o local.txt para o remoto
 
 Agora eu criei um arquivo remoto.txt no repositório do GitHub e joquei uma string qualquer nele
 ```bash
