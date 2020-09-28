@@ -56,6 +56,7 @@ git config --global user.email "ribafs@gmail.com"
 ## Sugestões e dicas
 Caso tenha sugestões favor deixar num Issue.
 
-## Boa referência
-Ótima dica recebida do colega Eduardo Alano do grupo PHP Brasil
+## Boas referências
+Ótima dica recebida do colega Eduardo Alano do grupo PHP Brasil do Facebook
+https://woliveiras.com.br/posts/comandos-mais-utilizados-no-git/
 https://dev.to/jkvyff/reset-or-sync-local-branch-to-a-remote-repository-41c4
