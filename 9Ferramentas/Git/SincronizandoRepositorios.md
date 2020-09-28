@@ -1,4 +1,5 @@
 # Sincronizando repositório local com o remoto
+De forma simples e quando temos apenas uma branch, a master.
 
 Em seu desktop mantenha um repositório sincronizado com o repositório do GitHub.
 
@@ -29,6 +30,13 @@ git pull    # Already up to date
 git push    # Aqui avisa que já está atualizado
 ```
 Removeu também do remoto
+
+## Checando alterações locais
+Após efetuar alterações no repositório local podemos receber informações sobre elas usando o comando
+
+git status
+
+Então nos é sugerido usar git add para guardar as alterações. Geralmente usamos "git add ." para isso, mas podemos usar git add nomearquivo.
 
 ## Estes comandos abaixo basta a primeira vez em que executou o git
 ```bash
