@@ -48,6 +48,9 @@ git status
 
 Então nos é sugerido usar git add para guardar as alterações. Geralmente usamos "git add ." para isso, mas podemos usar git add nomearquivo.
 
+## Checando alterações remotas
+git pull
+
 ## Estes comandos abaixo basta a primeira vez em que executou o git
 ```bash
 git config --global user.name "Ribamar FS"
