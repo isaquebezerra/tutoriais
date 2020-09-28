@@ -23,10 +23,13 @@ git push    # Aqui avisa que já está atualizado
 
 Removendo os arquivos local e remoto do repositório local
 ```bash
+git add .
 git commit -m "Teste de sincrinização"
 git pull    # Already up to date
 git push    # Aqui avisa que já está atualizado
 ```
+Removeu também do remoto
+
 ## Estes comandos abaixo basta a primeira vez em que executou o git
 ```bash
 git config --global user.name "Ribamar FS"
