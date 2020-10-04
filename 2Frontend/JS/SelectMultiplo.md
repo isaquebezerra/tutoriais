@@ -1,4 +1,4 @@
-# Exemplo de select múltiplo
+# Select múltiplo usando o selectize
 
 Site oficial
 
@@ -50,42 +50,7 @@ https://selectize.github.io/selectize.js/
 						<option value="ID">Idaho</option>
 						<option value="IL">Illinois</option>
 						<option value="IN">Indiana</option>
-						<option value="IA">Iowa</option>
-						<option value="KS">Kansas</option>
-						<option value="KY">Kentucky</option>
-						<option value="LA">Louisiana</option>
-						<option value="ME">Maine</option>
-						<option value="MD">Maryland</option>
-						<option value="MA">Massachusetts</option>
-						<option value="MI">Michigan</option>
-						<option value="MN">Minnesota</option>
-						<option value="MS">Mississippi</option>
-						<option value="MO">Missouri</option>
-						<option value="MT">Montana</option>
-						<option value="NE">Nebraska</option>
-						<option value="NV">Nevada</option>
-						<option value="NH">New Hampshire</option>
-						<option value="NJ">New Jersey</option>
-						<option value="NM">New Mexico</option>
-						<option value="NY">New York</option>
-						<option value="NC">North Carolina</option>
-						<option value="ND">North Dakota</option>
-						<option value="OH">Ohio</option>
-						<option value="OK">Oklahoma</option>
-						<option value="OR">Oregon</option>
-						<option value="PA">Pennsylvania</option>
-						<option value="RI">Rhode Island</option>
-						<option value="SC">South Carolina</option>
-						<option value="SD">South Dakota</option>
-						<option value="TN">Tennessee</option>
-						<option value="TX">Texas</option>
-						<option value="UT">Utah</option>
-						<option value="VT">Vermont</option>
-						<option value="VA">Virginia</option>
-						<option value="WA">Washington</option>
-						<option value="WV">West Virginia</option>
-						<option value="WI">Wisconsin</option>
-						<option value="WY" selected>Wyoming</option>
+						<option value="IA">Iowa</option>						
 					</select>
 				</div>
 				<script>
@@ -101,3 +66,40 @@ https://selectize.github.io/selectize.js/
 ## Dica do Johnathan Douglas no Laravel Brasil
 
 Valeu Johnathan :)
+
+## Usando o Select2
+
+https://select2.org/getting-started/installation
+
+Este exemplo funcionou somente baixando o css e o js da página Basic usage com Ctrl+U
+
+https://select2.org/getting-started/basic-usage
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<link href="./select2.css" rel="stylesheet" />
+<script src="./select2.js"></script>
+
+Estados<br>
+<select class="js-example-basic-multiple" name="states[]" multiple="multiple">
+  <option value="CE">Ceará</option>
+  <option value="RJ">Rio de Janeiro</option>
+  <option value="SP">São Paulo</option>
+</select>
+
+<script>
+$(document).ready(function() {
+    $('.js-example-basic-multiple').select2();
+});
+</script>
+</body>
+</html>
+
+Faça o download do pequeno exemplo acima e do select2.css e select2.js deste diretório ou baixe-os como indicado acima.
+	
