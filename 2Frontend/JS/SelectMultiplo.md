@@ -102,4 +102,9 @@ $(document).ready(function() {
 </html>
 
 Faça o download do pequeno exemplo acima e do select2.css e select2.js deste diretório ou baixe-os como indicado acima.
+
+https://raw.githubusercontent.com/ribafs/tutoriais/master/2Frontend/JS/select2.css
+
+https://raw.githubusercontent.com/ribafs/tutoriais/master/2Frontend/JS/select2.js
+
 	
