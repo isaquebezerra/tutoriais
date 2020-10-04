@@ -75,6 +75,7 @@ Este exemplo funcionou somente baixando o css e o js da página Basic usage com 
 
 https://select2.org/getting-started/basic-usage
 
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,5 +107,4 @@ Faça o download do pequeno exemplo acima e do select2.css e select2.js deste di
 https://raw.githubusercontent.com/ribafs/tutoriais/master/2Frontend/JS/select2.css
 
 https://raw.githubusercontent.com/ribafs/tutoriais/master/2Frontend/JS/select2.js
-
-	
+```
