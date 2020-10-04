@@ -98,3 +98,6 @@ https://selectize.github.io/selectize.js/
 	</body>
 </html>
 ```
+## Dica do Johnathan Douglas no Laravel Brasil
+
+Valeu Johnathan :)
