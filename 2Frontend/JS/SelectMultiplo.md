@@ -75,6 +75,8 @@ Este exemplo funcionou somente baixando o css e o js da página Basic usage com 
 
 https://select2.org/getting-started/basic-usage
 
+## Exemplo adaptado do site
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -101,10 +103,10 @@ $(document).ready(function() {
 </script>
 </body>
 </html>
-
-Faça o download do pequeno exemplo acima e do select2.css e select2.js deste diretório ou baixe-os como indicado acima.
+```
+## Testando
+Faça o download do pequeno exemplo acima e do select2.css e select2.js abaixo
 
 [select2.css](https://raw.githubusercontent.com/ribafs/tutoriais/master/2Frontend/JS/select2.css)
 
 [select2.js](https://raw.githubusercontent.com/ribafs/tutoriais/master/2Frontend/JS/select2.js)
-```
