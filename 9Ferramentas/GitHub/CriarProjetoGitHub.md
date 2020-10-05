@@ -1,5 +1,6 @@
-# Crie seus projetos no GitHub
-Guia passo a passo
+# Crie seu projeto no GitHub
+
+** Guia passo a passo **
 
 ## Conteúdo
 
@@ -22,7 +23,6 @@ Guia passo a passo
 - Outros recursos do GitHub
 
 
-
 ## Criação de conta no GitHub
 
 Acesse
@@ -31,7 +31,11 @@ https://github.com/
 
 Preencha o pequeno form no Sign up
 
-img
+![](images/cadastro.png)
+
+![](images/cadastr2.png)
+
+![](images/cadastro3.png)
 
 
 ## Criação de repositório
