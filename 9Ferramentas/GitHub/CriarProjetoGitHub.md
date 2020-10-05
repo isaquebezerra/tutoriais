@@ -31,11 +31,23 @@ https://github.com/
 
 Preencha o pequeno form no Sign up
 
-![](images/cadastro.png)
+![](img/cadastro.png)
 
-![](images/cadastr2.png)
+![](img/cadastr2.png)
 
-![](images/cadastro3.png)
+![](img/cadastro3.png)
+
+![](img/cadastro4.png)
+
+![](img/cadastro5.png)
+
+![](img/cadastro6.png)
+
+![](img/cadastro7.png)
+
+![](img/cadastro8.png)
+
+![](img/cadastro9.png)
 
 
 ## Criação de repositório
@@ -44,7 +56,11 @@ Acessar o GitHub e efetuar login
 
 Clique no botão verde New
 
-imgs
+![](img/repositorio1.png)
+
+![](img/repositorio2.png)
+
+![](img/repositorio3.png)
 
 
 ## Tutorial simples sobre markdown
@@ -99,7 +115,7 @@ Três sinais (`) junto ao nome da linguagem. Existe suporte para várias linguag
 ```
 Veja como o código acima fica
 
-img
+![](img/sintaxe.png)
 
 ```javascript
     ```javascript
@@ -169,7 +185,7 @@ Suponha que queira criar o arquivo README.md, mas dentro de um diretório que ai
 - Create new file
 - Digitamos "Apostilas" e em seguida teclamos na barra "/". Veja que agora abre espaço para digitarmos o nome do arquivo, então digitamos "README.md" e entramos com o conteúdo abaixo.
 
-img
+![](img/diretorio.png)
 
 
 ## Busca interna no editor do GitHub
@@ -359,6 +375,14 @@ https://github.com/ribafs/teste/archive/v1.0.zip
 
 Veja que acima e à esquerda existem opções para editar e excluir.
 
+![](img/release1.png)
+
+![](img/release2.png)
+
+![](img/release3.png)
+
+![](img/release4.png)
+
 
 ## Excluindo um repositório
 
@@ -418,7 +442,6 @@ Do you confirm generation [yes]? Enter
 Com isso ele criou o composer.json.
 
 Agora o enviamos para nosso repositório.
-
 
 
 ### Publicando seu projeto no Packagist
