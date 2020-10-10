@@ -22,7 +22,7 @@ $table->unique('email');
 
 ## Exemplo prático
 
-Relacionando as tabelas users com permissions
+Relacionando a tabela users com a permissions
 
 Antes
 ```php
