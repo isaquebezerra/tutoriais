@@ -24,7 +24,7 @@ $table->unique('email');
 
 Relacionando a tabela users com a permissions
 
-Antes
+### Antes
 ```php
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
@@ -49,7 +49,7 @@ Antes
             $table->primary(['user_id','permission_id']);
         });
 ```
-Versões 7 e 8 em diante
+### Versões 7 e 8 em diante
 ```php
         Schema::create('users', function (Blueprint $table) {
             $table->id();
