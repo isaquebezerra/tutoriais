@@ -20,7 +20,9 @@ $table->index(['account_id', 'created_at']);
 $table->unique('email');
 ```
 
-## Exemplos
+## Exemplo prático
+
+Relacionando as tabelas users com permissions
 
 Antes
 ```php
