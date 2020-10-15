@@ -1,0 +1,47 @@
+[General Settings]
+First Time=false
+Open Images in the Same Window=false
+
+[KFileDialog Settings]
+Height 768=480
+Recent Files[$e]=file:$HOME/dns_hg_cloudflare.png,file:$HOME/dns_hg_cloudflare.png
+Width 1366=768
+detailViewIconSize=0
+
+[MainWindow]
+Height 768=704
+State=AAAA/wAAAAD9AAAAAQAAAAMAAAUWAAAAbPwBAAAAAfsAAAASAEMAbwBsAG8AcgAgAEIAbwB4AwAAAEAAAAJUAAAFFgAAAG4AAAUWAAACbQAAAAQAAAAEAAAAAQAAAAL8AAAAAgAAAAAAAAABAAAAEABUAG8AbwBsACAAQgBvAHgDAAAAAP////8AAAAAAAAAAAAAAAIAAAACAAAAFgBtAGEAaQBuAFQAbwBvAGwAQgBhAHIBAAAAAP////8AAAAAAAAAAAAAABYAdABlAHgAdABUAG8AbwBsAEIAYQByAAAAAuX/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1366=1366
+Window-Maximized 768x1366=true
+
+[MainWindow][Toolbar Tool Box]
+ToolButtonStyle=IconOnly
+
+[MimeType Properties Version 1.2-3]
+Configurable Color Depth=image/png,image/bmp,image/x-pcx,image/x-rgb,image/x-xpixmap
+Configurable Quality Setting=image/jp2,image/jpeg,image/x-webp
+Maximum Color Depth=image/x-eps:32,image/x-portable-bitmap:1,image/x-portable-graymap:8,image/x-xbitmap:1
+
+[Text Settings]
+Font Size=18
+
+[Tool Settings]
+Last Used Tool=1
+Tool Widget Brush Col=0
+Tool Widget Brush Row=0
+Tool Widget Eraser Size Col=0
+Tool Widget Eraser Size Row=1
+Tool Widget Fill Style Col=0
+Tool Widget Fill Style Row=0
+Tool Widget Line Width Col=0
+Tool Widget Line Width Row=0
+Tool Widget Opaque/Transparent Col=0
+Tool Widget Opaque/Transparent Row=0
+Tool Widget Spraycan Size Col=0
+Tool Widget Spraycan Size Row=0
+
+[Undo/Redo Settings]
+Max Limit=500
+Max Limit Size Limit=16777216
+Min Limit=10
