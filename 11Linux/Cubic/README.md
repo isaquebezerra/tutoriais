@@ -83,6 +83,11 @@ https://github.com/ribafs/tutoriais/tree/master/10Linux/Cubic
 
 ### Executar no chroot
 
+Faça o download
+[cubic.sh](cubic.sh)
+
+Alias, deve ser bom fazer o download de toda a pasta [Cubic](https://github.com/ribafs/tutoriais/tree/master/11Linux/Cubic).
+
 sh cubic.sh
 
 ## Para clonar o desktop
@@ -118,9 +123,9 @@ https://github.com/ribafs/tutoriais/tree/master/10Linux/Cubic
 
 Encontrará as pastas (como exemplo):
 
-- /etc_skel
-- /etc_skel_.config
-- usr_local_bin
+- [/etc_skel](etc_skel)
+- [/etc_skel_.config](etc_skel_.config)
+- [usr_local_bin](usr_local_bin)
 
 Copie:
 
