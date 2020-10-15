@@ -2,11 +2,14 @@
 
 ## Usando o Cubic
 
-Cria uma ISO customizada do Ubuntu 
+Cria uma ISO customizada 
+
+Do Ubuntu 
 - 20.04
 - 18.04
 - 16.04
 - 14.04
+
 Do Linux Mint 
 - 20.04 
 (no site não cita os anteriores, mas imagino que funcione)
