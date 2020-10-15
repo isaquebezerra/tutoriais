@@ -25,6 +25,16 @@ A remasterização de sistemas linux, a meu ver é uma ferramenta de muito valor
 
 E a remasterização faz isso com muita simplicidade, como é o caso do Cubic e do antigo Remastersys.
 
+### Finalidades de uma Remasterização
+
+Existem diversas aplicações para a remasterização de um sistema:
+- Guardar uma cópia do seu sistema para numa reinstalação ele já estar praticamente do jeito que você gosta de usar, softwares, configurações, atalhos, etc
+- Para distribuir:
+  - Alunos de um curso
+  - Convidados de uma palestra ou conferência
+  - Oferecer para download em um site como o SourceForge.net, o Google Drive, etc
+  - Invente uma
+
 ## Instalação do cubic
 ```bash
 sudo apt-add-repository -y ppa:cubic-wizard/release
