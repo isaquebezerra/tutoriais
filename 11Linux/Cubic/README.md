@@ -18,14 +18,14 @@ https://launchpad.net/cubic
 
 ## Remasterização
 
-A remasterização de sistemas linux, a meu ver é uma ferramenta de muito valor, pois:
+A remasterização de sistemas linux, a meu ver, é uma ferramenta de muito valor, pois:
 
-- Tanto pode gerar uma ISO com tudo que meu sistema tem hoje
+- Tanto pode gerar uma ISO com tudo que meu sistema tem hoje para recuperação em qualquer circunstâncias
 - Quanto posso gerar uma ISO customizada para distribuir
 
 E a remasterização faz isso com muita simplicidade, como é o caso do Cubic e do antigo Remastersys.
 
-### Finalidades de uma Remasterização
+### Algumas Finalidades de uma Remasterização
 
 Existem diversas aplicações para a remasterização de um sistema:
 - Guardar uma cópia do seu sistema para numa reinstalação ele já estar praticamente do jeito que você gosta de usar, softwares, configurações, atalhos, etc
