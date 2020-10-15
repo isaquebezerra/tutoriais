@@ -2,9 +2,16 @@
 
 ## Usando o Cubic
 
-Cria uma ISO customizada do Ubuntu 20.04 ou do Linux Mint 20
+Cria uma ISO customizada do Ubuntu 
+- 20.04
+- 18.04
+- 16.04
+- 14.04
+Do Linux Mint 
+- 20.04 
+(no site não cita os anteriores, mas imagino que funcione)
 
-Esta ISO quando se instala num pendrive tem um Live Ubuntu ou Mint e pode ser instalado
+https://launchpad.net/cubic
 
 ## Remasterização
 
