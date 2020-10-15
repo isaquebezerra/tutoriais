@@ -216,6 +216,10 @@ Criei com 2 GB de RAM e 20 GB de disco (criei com 10 e recebi o aviso de que pre
 
 Mas 3 ou 4 de RAM fica mais confortável.
 
+## Detalhes sobre a criação da VM
+
+[Veja detalhes do VirtualBox](vbox.md)
+
 ## Site oficial
 
 https://launchpad.net/cubic
