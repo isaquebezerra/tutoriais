@@ -7,11 +7,11 @@ Cria uma ISO customizada do Ubuntu 20.04 ou do Linux Mint 20
 Esta ISO quando se instala num pendrive tem um Live Ubuntu ou Mint e pode ser instalado
 
 ## Instalação do cubic
-
+```bash
 sudo apt-add-repository -y ppa:cubic-wizard/release
 sudo apt update
 sudo apt install -y cubic
-
+```
 ## Executar o cubic no desktop
 
 Antes criar uma pasta para que o cubic armazene arquivos temporários enquanto gera a ISO e ao final remova (opção abaixo)
@@ -100,16 +100,17 @@ Copie:
 - usr_local_bin para /etc/local/bin no chroot
 
 ## Mensagens
+```bash
 gpg: Warning: using insecure memory!
 
 Unable to init server: Could not connect: Connection refused
-
+```
 Ignore
 
 ## Copiar os aliases abaixo e colar no chroot em /etc/skel/.bashrc
 
 Se estiver clonando o desktop ignore, pois já consta.
-
+```bash
 alias cw='cd /backup/www/laravel'
 alias cpu='cd /backup/backup_github/public'
 alias cpr='cd /backup/backup_github/private'
@@ -122,7 +123,7 @@ alias asd='composer du;php artisan db:seed'
 alias at='php artisan tinker'
 alias auth7='composer require laravel/ui --dev;php artisan ui bootstrap --auth;npm install && npm run dev;npm audit fix'
 alias clearall='php artisan view:clear;php artisan cache:clear;php artisan route:cache;php artisan route:clear;php artisan optimize;php artisan config:cache;composer dumpautoload'
-
+```
 ## Depois de ... 
 - atualização dos repositórios
 - upgrade
