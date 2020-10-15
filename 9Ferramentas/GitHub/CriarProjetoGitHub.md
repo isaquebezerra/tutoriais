@@ -282,6 +282,7 @@ Adicione arquivos, remomva outros.
 Agora vamos sincronizar seu conteúdo local com o remoto existente no GitHub. Apenas execute:
 
 ```bash
+git checkout
 git add .
 git commit "Segundo commit"
 git pull
@@ -298,6 +299,7 @@ Tornar ainda mais fácil, executando apenas um comando para sincronizar?
 ```bash
 sudo nano /usr/local/bin/gs
 
+git checkout
 git add .
 git commit $1
 git pull
