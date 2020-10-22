@@ -23,9 +23,9 @@ Detalhe: quando aparecer uma nova versão não precisa formatar, atualiza pelo m
 - PHPUnit
 - phpMyAdmin
 
-### Para aumentar a produtividade:
+## Utilitários
 
-- Vários bons aliases e scripts
+- rar, unrar, zip, unzip, p7zip
 
 ## Outros
 
@@ -38,9 +38,9 @@ Detalhe: quando aparecer uma nova versão não precisa formatar, atualiza pelo m
 - searchmonkey (busca string em arquivo texto de um diretório) 
 - shutter (capturador de telas com ótimos recursos) 
 
-## Utilitários
+### Para aumentar a produtividade:
 
-- rar, unrar, zip, unzip, p7zip
+- Vários bons aliases e scripts
 
 - E mais ...
  
