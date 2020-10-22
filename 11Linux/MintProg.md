@@ -25,7 +25,7 @@ Detalhe: quando aparecer uma nova versão não precisa formatar, atualiza pelo m
 
 ### Para aumentar a produtividade:
 
-- Vários aliases e vários bons scripts
+- Vários bons aliases e scripts
 
 ## Outros
 
