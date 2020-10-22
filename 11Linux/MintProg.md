@@ -50,7 +50,7 @@ Você pode adicionar outros programas, também remover os que não deseja, efetu
 
 https://sourceforge.net/projects/mint-prog/
 
-## Onde encotnrar a ISO dversão 3 do Mint Prog
+## Onde encotnrar a ISO da versão 3 do Mint Prog
 
 [linuxmint-20-cinnamon64-prog3.iso](https://sourceforge.net/projects/mint-prog/files/Release3/linuxmint-20-cinnamon64-prog3.iso/download)
 
@@ -86,6 +86,6 @@ https://www.tiagogouvea.com.br/perguntas/windows-ou-linux-qual-o-melhor-para-pro
 
     • Crie uma remasterização para uso pessoal, onde poderá copiar todo o seu home para o /etc/skel e ela ficará como quer, com todos os programas e configurações que você usa.
 
-## Visite o site abaixo caso precise de informações sobre como usar o Cubic para remasterizar um Ubuntu e um Mint:
+## Caso precise de informações sobre como usar o Cubic para remasterizar um Ubuntu ou um Mint:
 
 https://github.com/ribafs/tutoriais/tree/master/11Linux/Cubic
