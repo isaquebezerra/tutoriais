@@ -4,7 +4,7 @@ Que tal se você instalasse um sistema operacional em seu computador e ele já e
 
 Isso era o que eu queria para mim e acabei conseguindo com a ajuda do ótimo software de remasterização, Cubic. E criei uma remasterização como eu gostaria de encontrar e compartilehi no SourceForge para que outros programadores possam baixar e usar.
 
-Linux é o sistema operacional mais usado em servidores, portanto aprece ser o sistema mais adequado para se usar no desktop também. Assim se evita muitos conflitos entre servidor e desktop. Desde que se use uma distribuição bem amigável praticamente qualquer programador pode usar Linux em seu desktop. Eu faço isso há muitos anos.
+Linux é o sistema operacional mais usado em servidores, portanto parece ser o sistema mais adequado para se usar no desktop também. Assim se evita muitos conflitos entre servidor e desktop. Desde que se use uma distribuição bem amigável praticamente qualquer programador pode usar Linux em seu desktop. Eu faço isso há muitos anos.
 
 A distribuição tida como a mais amigável entre as disbuições Linux é o Linux Mint. É a minha preferida e a que uso. :)
 
