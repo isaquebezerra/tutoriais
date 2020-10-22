@@ -52,7 +52,13 @@ https://sourceforge.net/projects/mint-prog/
 
 ## Baixar a ISO da versão 3 do Mint Prog
 
-[linuxmint-20-cinnamon64-prog3.iso](https://sourceforge.net/projects/mint-prog/files/Release3/linuxmint-20-cinnamon64-prog3.iso/download)
+Clique em Download na página abaixo
+
+https://sourceforge.net/projects/mint-prog/
+
+Ou diretamenete em
+
+https://sourceforge.net/projects/mint-prog/files/Release3/linuxmint-20-cinnamon64-prog3.iso/download
 
 ## Documentação
 
