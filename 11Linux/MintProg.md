@@ -50,7 +50,7 @@ Você pode adicionar outros programas, também remover os que não deseja, efetu
 
 https://sourceforge.net/projects/mint-prog/
 
-## Onde encotnrar a ISO da versão 3 do Mint Prog
+## Baixar a ISO da versão 3 do Mint Prog
 
 [linuxmint-20-cinnamon64-prog3.iso](https://sourceforge.net/projects/mint-prog/files/Release3/linuxmint-20-cinnamon64-prog3.iso/download)
 
