@@ -46,9 +46,13 @@ Detalhe: quando aparecer uma nova versão não precisa formatar, atualiza pelo m
  
 Você pode adicionar outros programas, também remover os que não deseja, efetuar configurações e criar O seu sistema operacional preferido. Guarde a ISO como backup e para distribuir se desejar.
 
-## Página do projeto
+## Experimentar
 
-https://sourceforge.net/projects/mint-prog/
+Crie uma máquina virtual e instale a ISO para experimentar. Se gostar instale em seu HD.
+
+Se precisar veja um guia sobre a criação de VM no Virtualbox - https://mint-prog.sourceforge.io/docs/mint-prog-vm.pdf
+
+Se precisar de ajuda para instalar no HD veja - https://mint-prog.sourceforge.io/docs/linux-mint20.pdf
 
 ## Baixar a ISO da versão 3 do Mint Prog
 
