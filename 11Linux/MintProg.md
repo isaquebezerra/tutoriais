@@ -10,7 +10,7 @@ A distribuição tida como a mais amigável entre as disbuições Linux é o Lin
 
 Detalhe: quando aparecer uma nova versão não precisa formatar, atualiza pelo modo gráfico.
 
-##Softwares que já vem pré-instalados:
+## Softwares que já vem pré-instalados:
 
 - Apache 2.4 com mod_rewrite habilitado
 - PHP 7.4 e as principais extensões
