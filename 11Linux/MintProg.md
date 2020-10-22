@@ -14,7 +14,7 @@ Detalhe: quando aparecer uma nova versão não precisa formatar, atualiza pelo m
 
 - Apache 2.4 com mod_rewrite habilitado
 - PHP 7.4 e as principais extensões
-- MariaDB 15 (fork do SGBD mais popular)
+- MariaDB 15
 - PostgreSQL 12
 - SQLite 3
 - Git
