@@ -1,4 +1,4 @@
-# Remasterizando o Linux Mint 20 focada em PHP
+# Remasterização do Linux Mint 20 focada em PHP
 
 Que tal se você instalasse um sistema operacional em seu computador e ele já estivesse quase pronto para você trabalhar? Se ele já viesse com Apache, PHP, MySQL e cia e com as versões mais recentes?
 
