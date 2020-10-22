@@ -43,7 +43,7 @@ Detalhe: quando aparecer uma nova versão não precisa formatar, atualiza pelo m
 - rar, unrar, zip, unzip, p7zip
 
 - E mais ...
-
+ 
 Você pode adicionar outros programas, também remover os que não deseja, efetuar configurações e criar O seu sistema operacional preferido. Guarde a ISO como backup e para distribuir se desejar.
 
 ## Página do projeto
