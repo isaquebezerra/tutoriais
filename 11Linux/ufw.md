@@ -5,9 +5,9 @@
 O UFW vem instalado por padrão no Ubuntu, mas desabilitado.
 
 Verificando as regras atuais:
-
-sudo ufw status verbose
 ```bash
+sudo ufw status verbose
+
 Estado: ativo
 Logando: on (low)
 Predefinido: deny (entrada), allow (saída), disabled (roteado)
