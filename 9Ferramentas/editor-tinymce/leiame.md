@@ -1,2 +1,0 @@
-# Editor TinyMCE em Textarea
-

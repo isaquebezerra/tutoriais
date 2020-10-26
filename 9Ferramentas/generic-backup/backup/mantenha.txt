@@ -1,2 +1,0 @@
-Mantenha este diretório para armazanar os backups.
-Mantenha este arquivo, caso contrário o GitHub exclui o diretório

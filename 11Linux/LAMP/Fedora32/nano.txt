@@ -1,3 +1,0 @@
-Salvar - Ctrl+O
-Sair - Ctrl+X
-
