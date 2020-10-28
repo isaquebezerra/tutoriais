@@ -73,7 +73,7 @@ resources/views/livewire/crud.blade.php
         @livewireScripts
     </body>
 </html>
-```blade
+```
 
 ### Alerta
 
