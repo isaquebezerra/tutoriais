@@ -1,4 +1,17 @@
 # Acessar mysql com user diferente do sudo
+
+Por padrão, as vesões atuais do mysql/maraidb somente podem ser acessadas usando
+
+sudo mysql -uroot
+
+Dessa forma não podemos criar um banco e passar para um aplicativo.
+
+Precisamos permitir que o mysql seja acessado sem o uso do suudo com:
+
+mysql -uroot -p
+
+Para isso siga os passos abaixo:
+
 ```bash
 sudo systemctl stop mysql
 sudo mkdir -p /var/run/mysqld
