@@ -6,7 +6,7 @@ Para isto usa-se o conhecimento da teoria dos conjuntos, da matemática.
 
 Existem basicamente 3 variações de join: inner join, left join e right join. Outras fromas apenas mostram uma melhor escrita do código.
 
-Vamos trabalhar com duas tabelas: a e b, para ficar mais simples de aplicar/explicar os conceitos.
+Vamos trabalhar com duas tabelas: **a** e **b**, para ficar mais simples de aplicar/explicar os conceitos.
 ```sql
 create database joins;
 
@@ -42,7 +42,7 @@ Ribamar FS	Ribamar FS
 
 ## Left Join
 
-Retorna todos os registros que estão somente em a mais os registros que estão na intersecção das duas tabelas/conjuntos.
+Retorna todos os registros que estão somente em **a** mais os registros que estão na intersecção das duas tabelas/conjuntos.
 
 ![](left.png)
 
@@ -61,11 +61,11 @@ Fátima EF	Fátima EF
 Ribamar FS	Ribamar FS
 Tiago EF	NULL
 ```
-Veja que de a retorna todos e de b somente aqueles que coincidem com os da a.
+Veja que de a retorna todos e de **b** somente aqueles que coincidem com os da **a**.
 
 ## Right Join
 
-Retorna todos os registros que estão somente em b, mais os registros que estão ao mesmo tempo nas duas tabelas/intersecção.
+Retorna todos os registros que estão somente em **b**, mais os registros que estão ao mesmo tempo nas duas tabelas/intersecção.
 
 ![](right.png)
 
@@ -87,7 +87,7 @@ Ribamar FS	Ribamar FS
 
 ## Outer Join ou Full Outer Join ou ainda Full Join
 
-Retorna todos os registros que estão somente em a, mais todos os registros de b e também os registros que estão ao mesmo tempo nas duas tabelas/intersecção.
+Retorna todos os registros que estão somente em **a**, mais todos os registros de **b** e também os registros que estão ao mesmo tempo nas duas tabelas/intersecção.
 
 ![](outer.png)
 
