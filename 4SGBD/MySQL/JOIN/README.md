@@ -118,3 +118,32 @@ NULL	João Brito
 NULL	Pedro Brito
 ```
 Nas construções dos joins também podemos usar outros comandos: WHERE, ORDER BY, LIKE, etc.
+
+## Joins usando QueryBuilder no Laravel
+
+Inner Join
+
+Inner Join entre as tabelas users, contacts e orders.
+
+Para criar um inner join usamos o comando join. O primeiro argumento passado para o método join é o nome da tabela com a qual precisamos criar o join.
+Podemos efetuar join com várias tabelas:
+```sql
+$users = DB::table('users')
+            ->join('contacts', 'users.id', '=', 'contacts.user_id')
+            ->join('orders', 'users.id', '=', 'orders.user_id')
+            ->select('users.*', 'contacts.phone', 'orders.price')
+            ->get();
+```
+Left/Right Join
+```sql
+$users = DB::table('users')
+            ->leftJoin('posts', 'users.id', '=', 'posts.user_id')
+            ->get();
+
+$users = DB::table('users')
+            ->rightJoin('posts', 'users.id', '=', 'posts.user_id')
+            ->get();
+```
+Mais detalhes:
+
+https://laravel.com/docs/8.x/queries#joins
