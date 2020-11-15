@@ -149,3 +149,161 @@ $users = DB::table('users')
 Mais detalhes:
 
 https://laravel.com/docs/8.x/queries#joins
+
+## Avançando com Join
+
+Criar as tabelas members e authors
+```sql
+CREATE TABLE members (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(100),
+    PRIMARY KEY (id)
+);
+
+CREATE TABLE authors (
+    id INT AUTO_INCREMENT,
+    name VARCHAR(100),
+    PRIMARY KEY (id)
+);
+
+INSERT INTO members(name) VALUES('John'),('Jane'),('Mary'),('David'),('Amelia');
+
+INSERT INTO authors(name) VALUES('John'),('Mary'),('Amelia'),('Joe');
+
+SELECT * FROM members;
+
+id	name
+1	John
+2	Jane
+3	Mary
+4	David
+5	Amelia
+
+SELECT * FROM authors;
+
+id	name
+1	John
+2	Mary
+3	Amelia
+4	Joe
+```
+Alguns membros são autores e outros não.
+
+## Inner Join
+```sql
+SELECT 
+    m.id, 
+    m.name as member, 
+    a.id, 
+    a.name as author
+FROM
+    members m
+INNER JOIN authors a 
+	ON m.name = a.name
+
+id	member	id	author
+1	John	1	John
+3	Mary	2	Mary
+5	Amelia	3	Amelia
+```
+Como o nome dos campos nas tabelas é o mesmo, name e name, podemos usar USING
+```sql
+SELECT 
+    m.id, 
+    m.name as member, 
+    a.id, 
+    a.name as author
+FROM
+    members m
+INNER JOIN authors a USING (name); 
+```
+## Left Join
+```sql
+SELECT 
+    m.id, 
+    m.name as member, /* alias para name, apelido de member */
+    a.id, 
+    a.name as author /* alias para name, apelido de author */
+FROM
+    members m
+LEFT JOIN authors a USING(name);
+
+id	member	id	    author
+1	John	1	    John
+2	Jane	NULL	NULL
+3	Mary	2	    Mary
+4	David	NULL	NULL
+5	Amelia	3	    Amelia
+```
+Retornando apenas os NULL na tabela de authors:
+```sql
+SELECT 
+    m.id, 
+    m.name as member, /* alias para name, apelido de member */
+    a.id, 
+    a.name as author /* alias para name, apelido de author */
+FROM
+    members m
+LEFT JOIN authors a USING(name)
+WHERE a.id IS NULL;
+
+id	member	id	author
+2	Jane	NULL	NULL
+4	David	NULL	NULL
+```
+## Right Join
+```sql
+SELECT 
+    m.id, 
+    m.name as member, 
+    a.id, 
+    a.name as author
+FROM
+    members m
+RIGHT JOIN authors a on m.name = a.name
+
+id	    member	id	author
+1	    John	1	John
+3	    Mary	2	Mary
+5	    Amelia	3	Amelia
+NULL	NULL	4	Joe
+
+Ou comm USING:
+RIGHT JOIN authors a USING(name);
+```
+## Cross Join - cria um produto cartesiano dos dois conjuntos/tabelas. Combina cada registro da tabela a com cada campo da tabela b.  Veja que o exemplo abaixo tem 4 registros cujo id é 1, pois a tabela b tem 4 registros. Então fica assim: 1,4 1,3 1,2 e 1,1, depois com o 2 até o último.
+```sql
+SELECT 
+    m.id, 
+    m.name as member, 
+    a.id, 
+    a.name as author
+FROM
+    members m
+CROSS JOIN authors a
+
+id	member	id	author
+1	John	4	Joe
+1	John	3	Amelia
+1	John	2	Mary
+1	John	1	John
+2	Jane	4	Joe
+2	Jane	3	Amelia
+2	Jane	2	Mary
+2	Jane	1	John
+3	Mary	4	Joe
+3	Mary	3	Amelia
+3	Mary	2	Mary
+3	Mary	1	John
+4	David	4	Joe
+4	David	3	Amelia
+4	David	2	Mary
+4	David	1	John
+5	Amelia	4	Joe
+5	Amelia	3	Amelia
+5	Amelia	2	Mary
+5	Amelia	1	John
+```
+Referência:
+https://www.mysqltutorial.org/mysql-join/
+
