@@ -1,4 +1,6 @@
-# Join - união entre tabelas do MySQL
+# Introdução so Join
+
+União entre tabelas do MySQL
 
 Para outros SGBD os comandos sãos emelhantes, com epquenas variações.
 
