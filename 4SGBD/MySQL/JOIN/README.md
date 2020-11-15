@@ -1,4 +1,4 @@
-# Introdução so Join
+# Introdução ao Join com MySQL e com Laravel
 
 União entre tabelas do MySQL
 
