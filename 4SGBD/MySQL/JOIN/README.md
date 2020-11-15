@@ -271,7 +271,9 @@ NULL	NULL	4	Joe
 Ou comm USING:
 RIGHT JOIN authors a USING(name);
 ```
-## Cross Join - cria um produto cartesiano dos dois conjuntos/tabelas. Combina cada registro da tabela a com cada campo da tabela b.  Veja que o exemplo abaixo tem 4 registros cujo id é 1, pois a tabela b tem 4 registros. Então fica assim: 1,4 1,3 1,2 e 1,1, depois com o 2 até o último.
+## Cross Join
+
+Cross Join cria um produto cartesiano dos dois conjuntos/tabelas. Combina cada registro da tabela A com cada campo da tabela B. Veja que o exemplo abaixo tem 4 registros cujo id é 1, pois a tabela b tem 4 registros. Então fica assim: 1,4 1,3 1,2 e 1,1, depois com o 2 até o último.
 ```sql
 SELECT 
     m.id, 
